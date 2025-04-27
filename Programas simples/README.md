@@ -16,7 +16,7 @@
 > Programa que lê três notas de um aluno, calculando a média ponderada com pesos específicos para cada nota (Nota A tem peso 2, Nota B tem peso 3 e Nota C tem peso 5). As notas podem variar de 0 a 10, com uma casa decimal.  
 > **Objetivo:** Demonstrar o uso de variáveis, operações aritméticas, e cálculo de médias ponderadas com base em pesos definidos.
 
-### 5 - Diferença entre produtos
+### 5 - Diferença
 > Programa que lê quatro números inteiros, calcula o produto de A e B, e o produto de C e D, e então exibe a diferença entre esses produtos, de acordo com a fórmula:  
 > `DIFERENCA = (A * B - C * D)`  
 > **Objetivo:** Trabalhar com operações aritméticas e a manipulação de múltiplas variáveis.

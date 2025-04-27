@@ -11,5 +11,4 @@ int main() {
     printf("Diferença = %d\n", diferenca);
 
     return 0;
-
 }
