@@ -21,7 +21,7 @@
 > `DIFERENCA = (A * B - C * D)`  
 > **Objetivo:** Trabalhar com operações aritméticas e a manipulação de múltiplas variáveis.
 
-### 6 - Cálculo da área de uma circunferência
+### 6 - Área do curculo
 > Programa que lê o valor do raio de uma circunferência e calcula sua área utilizando a fórmula:  
 > `área = π * raio²`, onde π é considerado como 3.14159.  
 > O programa eleva o valor do raio ao quadrado e multiplica por π para obter a área.  
