@@ -33,3 +33,10 @@ Todos os códigos seguem regras específicas de padronização para garantir a b
    - Ponteiros
    - Manipulação de arquivos
    - Algoritmos de ordenação e busca
+
+
+   ## Programas
+
+### 1 - Hello World
+> Programa que imprime "Hello, World!" na tela.  
+> **Objetivo:** Introduzir a estrutura básica de um programa em C, uso da função `printf` e o conceito de entrada/saída.
