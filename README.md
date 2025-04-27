@@ -33,3 +33,16 @@ Todos os códigos seguem regras específicas de padronização para garantir a b
    - Ponteiros
    - Manipulação de arquivos
    - Algoritmos de ordenação e busca
+# Programas Simples
+
+Esta pasta contém uma coleção de **programas simples** desenvolvidos em **Linguagem C**, desde problemas iniciais que ajudam a entender a lógica de programação até problemas matemáticos e desafios mais elaborados. O objetivo é oferecer uma base sólida para iniciantes e ajudar a consolidar o conhecimento de conceitos fundamentais da linguagem.
+
+## O que você encontrará aqui:
+
+- **Problemas de Lógica Simples:** Programas que abordam conceitos básicos, como entrada/saída de dados, operações aritméticas e estruturas condicionais.
+  
+- **Cálculos Matemáticos:** Programas que resolvem problemas matemáticos simples, como soma, multiplicação, média ponderada, etc.
+  
+- **Desafios de Algoritmos:** Programas que resolvem questões como ordenação, pesquisa e manipulação de dados, abordando conceitos importantes de programação.
+
+Cada programa foi projetado para ser simples, direto e fácil de entender, com o objetivo de ajudar a construir uma base sólida de habilidades de programação em C.
