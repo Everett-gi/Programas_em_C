@@ -18,7 +18,7 @@ Todos os códigos seguem regras específicas de padronização para garantir a b
 
 ## Organização dos Programas
 
-1. **Programas Básicos**  
+1. **Programas Simples**  
    - Entrada e saída de dados
    - Estruturas condicionais (`if`, `else`, `switch`)
    - Laços (`while`, `for`, `do-while`)
