@@ -2,7 +2,7 @@
  
 int main() {
  
-   char vendedor;
+   char vendedor[100];
    double salarioFixo, totalVendas, salarioFinal;
    
    scanf ("%s %lf %lf", &vendedor, &salarioFixo, &totalVendas);
