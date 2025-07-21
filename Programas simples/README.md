@@ -30,3 +30,7 @@
 ### 7 - Salário com Bônus  
 > Programa que lê o nome de um vendedor, seu salário fixo e o total de vendas realizadas no mês (em dinheiro), calculando o salário final com uma comissão de 15% sobre as vendas. O resultado é exibido com duas casas decimais.  
 > **Objetivo:** Introduzir o conceito de porcentagem, formatação de saída com casas decimais e manipulação de dados numéricos e strings em C.
+
+### 8 - Cálculo Simples  
+> Programa que lê o código, a quantidade e o valor unitário de duas peças, calculando o valor total a ser pago (quantidade × valor unitário para cada peça e depois somando os resultados).  
+> **Objetivo:** Praticar a leitura de múltiplos dados em uma mesma entrada, realizar cálculos básicos com multiplicação e soma, e formatar a saída corretamente.
