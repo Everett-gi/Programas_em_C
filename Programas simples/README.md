@@ -40,3 +40,18 @@
 > **Volume = (4/3) * π * raio³**, onde π (pi) é considerado como **3.14159**.  
 > **Objetivo:** Introduzir conceitos matemáticos mais avançados (potenciação e constantes), reforçar operações aritméticas com tipos decimais e demonstrar a importância do cuidado com divisões inteiras em linguagens como C.  
 > **Observação:** Recomenda-se usar **(4.0/3)** ou **(4/3.0)** para evitar erros de arredondamento em divisões inteiras.
+
+### 10 - Áreas Geométricas  
+> Programa que lê três valores de ponto flutuante (A, B, C) e calcula:  
+> - **a)** Área do triângulo retângulo** (base A, altura C): `(A * C) / 2`  
+> - **b)** Área do círculo** (raio C): `π * C²` (π = 3.14159)  
+> - **c)** Área do trapézio** (bases A e B, altura C): `((A + B) * C) / 2`  
+> - **d)** Área do quadrado** (lado B): `B²`  
+> - **e)** Área do retângulo** (lados A e B): `A * B`  
+
+> **Objetivo:**  
+> - Praticar cálculos geométricos básicos em programação.  
+> - Aplicar fórmulas matemáticas com variáveis de ponto flutuante.  
+> - Demonstrar a reutilização de variáveis em diferentes contextos.  
+> - Treinar formatação de saída com precisão decimal.  
+> **Dica:** Usar `double` para maior precisão e garantir arredondamentos corretos.
