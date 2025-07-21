@@ -34,3 +34,9 @@
 ### 8 - Cálculo Simples  
 > Programa que lê o código, a quantidade e o valor unitário de duas peças, calculando o valor total a ser pago (quantidade × valor unitário para cada peça e depois somando os resultados).  
 > **Objetivo:** Praticar a leitura de múltiplos dados em uma mesma entrada, realizar cálculos básicos com multiplicação e soma, e formatar a saída corretamente.
+
+### 9 - Esfera  
+> Programa que calcula o volume de uma esfera a partir do raio fornecido, utilizando a fórmula:  
+> **Volume = (4/3) * π * raio³**, onde π (pi) é considerado como **3.14159**.  
+> **Objetivo:** Introduzir conceitos matemáticos mais avançados (potenciação e constantes), reforçar operações aritméticas com tipos decimais e demonstrar a importância do cuidado com divisões inteiras em linguagens como C.  
+> **Observação:** Recomenda-se usar **(4.0/3)** ou **(4/3.0)** para evitar erros de arredondamento em divisões inteiras.
