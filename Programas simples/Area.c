@@ -15,10 +15,10 @@ int main() {
    areaQuadrado = pow(pontoB, 2);
    areaRetangulo = pontoA * pontoB;
    
-   printf("TRIANGULO: %.3lf\n",areaTriangulo);
-   printf("CIRCULO: %.3lf\n",areaCirculo);
-   printf("TRAPEZIO: %.3lf\n",areaTrapezio);
-   printf("QUADRADO: %.3lf\n",areaQuadrado);
-   printf("RETANGULO: %.3lf\n",areaRetangulo);
+   printf("a) TRIANGULO: %.3lf\n",areaTriangulo);
+   printf("b) CIRCULO: %.3lf\n",areaCirculo);
+   printf("c) TRAPEZIO: %.3lf\n",areaTrapezio);
+   printf("d) QUADRADO: %.3lf\n",areaQuadrado);
+   printf("e) RETANGULO: %.3lf\n",areaRetangulo);
     return 0;
 }
