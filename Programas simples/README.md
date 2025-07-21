@@ -26,3 +26,7 @@
 > `área = π * raio²`, onde π é considerado como 3.14159.  
 > O programa eleva o valor do raio ao quadrado e multiplica por π para obter a área.  
 > **Objetivo:** Trabalhar operações de potência, multiplicação e conceitos matemáticos básicos aplicados em programação.
+
+### 7 - Salário com Bônus  
+> Programa que lê o nome de um vendedor, seu salário fixo e o total de vendas realizadas no mês (em dinheiro), calculando o salário final com uma comissão de 15% sobre as vendas. O resultado é exibido com duas casas decimais.  
+> **Objetivo:** Introduzir o conceito de porcentagem, formatação de saída com casas decimais e manipulação de dados numéricos e strings em C.
