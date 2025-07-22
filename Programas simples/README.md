@@ -75,3 +75,47 @@
 > - Demonstrar a reutilização de variáveis em diferentes contextos.  
 > - Treinar formatação de saída com precisão decimal.  
 > **Dica:** Usar `double` para maior precisão e garantir arredondamentos corretos.
+
+### 12 - Lanchonete  
+> Programa que simula um pedido de lanchonete, onde o usuário informa o **código do item** e a **quantidade desejada**, e o sistema calcula o valor total a pagar com base na tabela de preços.  
+
+#### **Funcionamento:**  
+1. Exibe um **menu de produtos** com códigos e preços.  
+2. Lê o **código do item** e a **quantidade**.  
+3. Calcula o **valor total** conforme a tabela:  
+   - **1** → Cachorro Quente (R$ 4.00)  
+   - **2** → X-Salada (R$ 4.50)  
+   - **3** → X-Bacon (R$ 5.00)  
+   - **4** → Torrada Simples (R$ 2.00)  
+   - **5** → Refrigerante (R$ 1.50)  
+4. Se o código for inválido, exibe: *"Código inválido!"*.  
+5. Caso contrário, mostra o **total a pagar** com 2 casas decimais.  
+
+#### **Objetivos:**  
+✔ **Praticar estruturas condicionais (`if-else`)** para seleção de preços.  
+✔ **Formatar saída** de valores monetários (`%.2lf`).  
+✔ **Melhorar interação com o usuário** exibindo um menu claro.  
+✔ **Validar entrada** para evitar cálculos incorretos.  
+
+#### **Dicas:**  
+- Pode ser estendido para **calcular vários itens** (usando loop).  
+- Ideal para exercícios de **lógica com tabelas de preços**.  
+
+#### **Observação:**  
+O código já implementado garante que o cálculo só ocorre se o **código for válido**, evitando erros.  
+
+---  
+**Exemplo de Saída:**  
+```
+--------------------------------
+CODIGO     PRODUTO        PREÇO
+--------------------------------
+1        Cachorro Quente  R$ 4.00
+2        X-Salada         R$ 4.50
+3        X-Bacon          R$ 5.00
+4        Torrada Simples  R$ 2.00
+5        Refrigerante     R$ 1.50
+--------------------------------
+Digite o código e a quantidade do lanche desejado: 3 2
+Total: R$ 10.00
+```
