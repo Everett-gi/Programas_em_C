@@ -49,6 +49,26 @@
 > - **d)** Área do quadrado** (lado B): `B²`  
 > - **e)** Área do retângulo** (lados A e B): `A * B`  
 
+### 11 - Fórmula de Bhaskara  
+> Programa que lê três coeficientes de ponto flutuante (A, B, C) e calcula as raízes de uma equação do segundo grau usando a fórmula de Bhaskara:  
+>  
+> **Fórmula:**  
+> Δ = B² - 4AC  
+> x = (-B ± √Δ) / (2A)  
+>  
+> **Condições:**  
+> - Se **A = 0** ou **Δ < 0**, exibe _"Impossivel calcular"_ (divisão por zero ou raiz negativa).  
+> - Caso contrário, calcula e mostra as duas raízes com 5 casas decimais.  
+
+> **Objetivo:**  
+> - Implementar cálculos matemáticos avançados (raiz quadrada, potência).  
+> - Validar condições para evitar operações inválidas (divisão por zero, raiz negativa).  
+> - Praticar estruturas condicionais e formatação de saída com precisão.  
+
+> **Dica:**  
+> - Usar `#include <math.h>` para a função `sqrt()`.  
+> - Verificar se **A ≠ 0** e **Δ ≥ 0** antes de calcular as raízes.  
+> - Usar `if-else` para tratar casos inválidos.
 > **Objetivo:**  
 > - Praticar cálculos geométricos básicos em programação.  
 > - Aplicar fórmulas matemáticas com variáveis de ponto flutuante.  
