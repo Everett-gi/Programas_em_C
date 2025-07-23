@@ -119,3 +119,43 @@ CODIGO     PRODUTO        PREÇO
 Digite o código e a quantidade do lanche desejado: 3 2
 Total: R$ 10.00
 ```
+
+### 13 - DDD  
+> Programa que recebe um **código de DDD** (Discagem Direta a Distância) e informa a **cidade e estado** correspondente, conforme a tabela oficial.  
+
+#### **Funcionamento:**  
+1. Lê um número inteiro (**DDD**) digitado pelo usuário.  
+2. Utiliza uma estrutura **`switch-case`** para verificar o DDD e retornar:  
+   - O **nome da cidade** e **sigla do estado** (ex: `61 → "Brasilia (DF)"`).  
+   - Se o DDD não existir, exibe: *"DDD nao cadastrado"*.  
+
+#### **Objetivos:**  
+✔ **Praticar estruturas de seleção (`switch-case`)** para mapeamento de valores.  
+✔ **Validar entrada** e lidar com casos não mapeados (`default`).  
+✔ **Fornecer resposta instantânea** com base em dados pré-definidos (tabela de DDDs).  
+
+#### **Destaques do Código:**  
+- **Organização:** Todos os DDDs estão mapeados de forma clara, facilitando manutenção.  
+- **Eficiência:** O `switch-case` é ideal para comparações exatas (mais rápido que `if-else` encadeados).  
+- **Tratamento de Erros:** Mensagem específica para DDDs inválidos.  
+
+#### **Exemplo de Saída:**  
+```  
+Digite o DDD: 21  
+Rio de Janeiro (RJ)  
+```  
+```  
+Digite o DDD: 99  
+Imperatriz (MA)  
+```  
+```  
+Digite o DDD: 10  
+DDD nao cadastrado  
+```  
+
+#### **Observações:**  
+- **Extensível:** Pode ser atualizado com novos DDDs sem alterar a lógica principal.  
+- **Aplicações reais:** Sistemas de telefonia, cadastros de clientes, etc.  
+
+---  
+**Nota:** O código já implementado cobre todos os DDDs brasileiros registrados, garantindo precisão.
