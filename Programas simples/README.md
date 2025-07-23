@@ -173,7 +173,7 @@ DDD nao cadastrado
 **Nota:** O código já implementado cobre todos os DDDs brasileiros registrados, garantindo precisão.
 
 
-### 14 - Nome do Mês em Inglês  
+### 14 - Mês  
 > Programa que converte um **número de mês (1-12)** em seu **nome por extenso em inglês**, com a primeira letra maiúscula.  
 
 #### **Funcionamento:**  
@@ -216,3 +216,58 @@ Please enter a value between 1 and 12.
 
 ---  
 **Nota:** Ideal para exercícios de **lógica básica** e **tratamento de entrada/saída**.
+
+
+### 15 - Notas e Centavos 
+> Programa que recebe um **valor monetário** (ponto flutuante) e calcula a **quantidade mínima** de notas e moedas necessárias para representá-lo, seguindo o sistema monetário brasileiro.  
+
+#### **Funcionamento:**  
+1. **Entrada:**  
+   - Lê um valor em reais (ex: `576.73`).  
+2. **Conversão:**  
+   - Transforma o valor em **centavos** (para evitar erros de arredondamento com `double`).  
+   - Separa a parte inteira (reais) da parte decimal (centavos).  
+3. **Cálculo das Notas:**  
+   - Divide o valor por **100, 50, 20, 10, 5, 2** (notas) e atualiza o saldo restante.  
+4. **Cálculo das Moedas:**  
+   - Divide os centavos por **50, 25, 10, 5, 1** (moedas) e atualiza o saldo restante.  
+5. **Saída:**  
+   - Exibe a quantidade de cada nota e moeda necessárias.  
+
+#### **Objetivos:**  
+✔ **Praticar operações matemáticas** (divisão inteira e resto).  
+✔ **Evitar problemas de arredondamento** trabalhando com centavos como inteiros.  
+✔ **Formatar saída** claramente (notas e moedas separadas).  
+
+#### **Destaques do Código:**  
+- **Eficiência:** Usa operações inteiras para garantir precisão.  
+- **Organização:** Separa notas e moedas em seções distintas na saída.  
+- **Robustez:** Funciona para qualquer valor positivo (até o limite de `int`).  
+
+#### **Exemplo de Saída:**  
+```  
+Digite o valor a ser convertido: 576.73  
+
+NOTAS:  
+5 nota(s) de R$ 100.00  
+1 nota(s) de R$ 50.00  
+1 nota(s) de R$ 20.00  
+0 nota(s) de R$ 10.00  
+1 nota(s) de R$ 5.00  
+0 nota(s) de R$ 2.00  
+
+MOEDAS:  
+1 moeda(s) de R$ 1.00  
+1 moeda(s) de R$ 0.50  
+0 moeda(s) de R$ 0.25  
+2 moeda(s) de R$ 0.10  
+0 moeda(s) de R$ 0.05  
+3 moeda(s) de R$ 0.01  
+```  
+
+#### **Melhorias Possíveis:**  
+- Validar entrada (valores negativos ou muito grandes).  
+- Usar arrays para armazenar os valores das notas/moedas e evitar repetição de código.  
+
+---  
+**Nota:** Ideal para exercícios de **lógica matemática** e **tratamento de valores monetários**.
