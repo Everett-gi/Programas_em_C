@@ -40,7 +40,7 @@ int main() {
             printf("Campos dos Goytacazes (RJ)\n");
             break;
         } case 24:{
-            printf("Volta Redonda (RJ)\n");
+            printf("Petrópolis (RJ)\n");
             break;
         } case 27:{
             printf("Vitoria (ES)\n");
