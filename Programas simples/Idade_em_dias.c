@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    
     int dias, anos, meses;
 
     printf("Digite a idade em dias: \n");
