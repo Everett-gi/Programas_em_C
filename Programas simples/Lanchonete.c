@@ -13,6 +13,7 @@ void mostrarMenu() {
 }
 
 int main() {
+    
     int codigo, quantidade;
     double total;
 
