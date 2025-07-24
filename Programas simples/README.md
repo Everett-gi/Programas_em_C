@@ -312,3 +312,31 @@ Digite a idade em dias: 400
   - Garantido que o valor de entrada não gerará ambiguidades (ex.: 364 dias = 12 meses + 4 dias).  
 - **Cenários Reais:**  
   - Para cálculos precisos, usar bibliotecas de data (ex.: `time.h` no C).  
+
+
+### 17 - Identificador de Quadrante Cartesiano  
+> Programa que determina o **quadrante** de coordenadas (X,Y) no plano cartesiano, processando múltiplos pontos até que uma coordenada **NULA** (0) seja informada.  
+
+#### **Funcionamento:**  
+1. **Entrada:**  
+   - Lê pares de coordenadas `(X, Y)` em loop infinito (`while(1)`).  
+2. **Condição de Parada:**  
+   - Se **X = 0** ou **Y = 0**, encerra o programa **sem saída**.  
+3. **Identificação do Quadrante:**  
+   - **Primeiro quadrante (Q1):** `X > 0` e `Y > 0` → imprime `"primeiro"`.  
+   - **Segundo quadrante (Q2):** `X < 0` e `Y > 0` → imprime `"segundo"`.  
+   - **Terceiro quadrante (Q3):** `X < 0` e `Y < 0` → imprime `"terceiro"`.  
+   - **Quarto quadrante (Q4):** `X > 0` e `Y < 0` → imprime `"quarto"`.  
+
+#### **Objetivos:**  
+✔ **Praticar estruturas de repetição** (`while` infinito com `break`).  
+✔ **Aplicar condições lógicas** para mapear coordenadas.  
+✔ **Validar entrada** (saída silenciosa para coordenadas nulas).   
+
+#### **Destaques do Código:**  
+- **Eficiência:** Condições diretas sem redundância.  
+- **Clareza:** Nomes dos quadrantes em português, alinhados à convenção matemática.  
+- **Controle de Fluxo:** Uso inteligente de `break` para sair do loop.  
+
+---  
+**Nota:** Ideal para exercícios de **geometria analítica** e **lógica condicional**.
