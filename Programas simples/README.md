@@ -271,3 +271,44 @@ MOEDAS:
 
 ---  
 **Nota:** Ideal para exercícios de **lógica matemática** e **tratamento de valores monetários**.
+
+
+### 16 - Idade em Dias  
+> Programa que converte uma **idade em dias** para **anos, meses e dias**, considerando:  
+> - **1 ano = 365 dias**  
+> - **1 mês = 30 dias**  
+
+#### **Funcionamento:**  
+1. **Entrada:**  
+   - Lê um valor inteiro representando a idade em dias (ex: `400`).  
+2. **Cálculo:**  
+   - **Anos:** `dias / 365` (divisão inteira).  
+   - **Meses:** `(dias % 365) / 30` (resto dos anos convertido para meses).  
+   - **Dias:** `(dias % 365) % 30` (resto dos meses).  
+3. **Saída:**  
+   - Exibe o resultado no formato:  
+     ```  
+     X ano(s)  
+     Y mes(es)  
+     Z dia(s)  
+     ```  
+
+#### **Objetivos:**  
+✔ **Praticar divisão inteira e resto** (`/` e `%`).  
+✔ **Simplificar problemas de conversão de unidades** (tempo).  
+✔ **Trabalhar com constraints** (suposições fixas sobre dias/meses/anos).  
+
+#### **Exemplo de Saída:**  
+```  
+Digite a idade em dias: 400  
+1 ano(s)  
+1 mes(es)  
+5 dia(s)  
+```  
+
+#### **Observações:**  
+- **Restrição do Problema:**  
+  - Assume anos de 365 dias e meses de 30 dias **sem exceções** (para simplificar).  
+  - Garantido que o valor de entrada não gerará ambiguidades (ex.: 364 dias = 12 meses + 4 dias).  
+- **Cenários Reais:**  
+  - Para cálculos precisos, usar bibliotecas de data (ex.: `time.h` no C).  
