@@ -3,7 +3,7 @@
 int main() {
   
     int x, y;
-     while (scanf("%i%i", &x, &y) == 2) {
+     while (1) {
 
        printf("Digite as cordenadas X e Y: \n")
         scanf("%i%i",&x,&y);
