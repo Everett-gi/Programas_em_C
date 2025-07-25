@@ -423,3 +423,53 @@ Poxa que pena :(
 
 ---  
 **Nota:** Ideal para exercícios de **lógica divertida** e **introdução a loops**.
+
+
+### 20 - Crescimento Populacional  
+> Programa que calcula **quantos anos** levará para a **cidade A** (população menor) ultrapassar a **cidade B** em população, considerando **taxas de crescimento anual** distintas.  
+
+#### **Funcionamento:**  
+1. **Entrada:**  
+   - Número de **casos de teste** (`testes`).  
+   - Para cada caso:  
+     - População inicial de **A** e **B** (`populacaoA`, `populacaoB`).  
+     - Taxas de crescimento anual **A** e **B** em porcentagem (`crescimentoPA`, `crescimentoPB`).  
+2. **Processamento:**  
+   - Enquanto `populacaoA ≤ populacaoB`:  
+     - Atualiza as populações anualmente, arredondando para inteiro:  
+       ```c
+       populacaoA += (int)(populacaoA * crescimentoPA / 100);
+       populacaoB += (int)(populacaoB * crescimentoPB / 100);
+       ```  
+     - Incrementa o contador de anos (`anos++`).  
+     - Se ultrapassar **100 anos**, interrompe e exibe: `"Mais de 1 seculo."`.  
+3. **Saída:**  
+   - Para cada caso, mostra o tempo necessário ou a mensagem de século.  
+
+#### **Objetivos:**  
+✔ **Simular crescimento populacional** com taxas variáveis.  
+✔ **Praticar loops aninhados** (`for` para casos de teste, `while` para anos).  
+✔ **Limitar execuções longas** (100 anos como limite).  
+
+#### **Exemplo de Saída:**  
+```
+Digite o numero de casos de teste: 2 
+Caso 1:  
+Digite a populacao da cidade A: 100  
+Digite a populacao da cidade B: 150  
+Digite a taxa de crescimento da cidade A (%): 10  
+Digite a taxa de crescimento da cidade B (%): 5  
+Resultado: 5 anos.  
+
+Caso 2:  
+Digite a populacao da cidade A: 1000  
+Digite a populacao da cidade B: 2000  
+Digite a taxa de crescimento da cidade A (%): 3  
+Digite a taxa de crescimento da cidade B (%): 1  
+Resultado: Mais de 1 seculo.  
+```  
+
+#### **Destaques do Código:**  
+- **Eficiência:** Interrompe o loop após 100 anos para evitar processamento infinito.  
+- **Clareza:** Mensagens explicativas para entrada e saída.  
+- **Precisão:** Arredondamento anual com `(int)` para simular crescimento real.  
