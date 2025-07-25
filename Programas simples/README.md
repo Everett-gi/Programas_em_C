@@ -379,3 +379,47 @@ A quantidade em litros de combustível gasto durante a viagem foi de 33.333 litr
 
 ---  
 **Nota:** Ideal para exercícios de **física aplicada** (cinemática) e **programação básica**.
+
+
+### 19 - Feliz Natal!  
+> Programa que transforma seu **nível de animação natalina** em um grito de "Feliz Natal!" personalizado, com **'a's extras** proporcional à felicidade digitada.  
+
+#### **Funcionamento:**  
+1. **Entrada:**  
+   - Solicita um **índice de felicidade** (número inteiro).  
+   - Exemplo: `Qual o número que representa o seu ânimo pelo natal: 5`.  
+2. **Lógica:**  
+   - Se o índice for **≥ 1**:  
+     - Exibe `"Feliz nat"`, seguido de **N 'a's** (onde N = índice) e um `"l!"`.  
+     - Exemplo: `Feliz nataaaaal!` (para índice = 5).  
+   - Se for **≤ 0**:  
+     - Exibe mensagem de desapontamento: `"Poxa que pena :("`.  
+3. **Saída:**  
+   - Personalizada conforme o índice ou mensagem alternativa.  
+
+#### **Objetivos:**  
+✔ **Praticar estruturas condicionais** (`if-else`).  
+✔ **Usar loops** (`for`) para repetição controlada.  
+✔ **Criar interatividade** com o usuário de forma lúdica.  
+
+#### **Destaques do Código:**  
+- **Criatividade:** Transforma um número em uma mensagem animada.  
+- **Tratamento de Erros:** Responde a entradas inválidas (índice ≤ 0).  
+- **Simplicidade:** Fácil adaptação para outros festejos (ex.: "Feliz aniversáriooo!").
+
+#### **Exemplos de Saída:**  
+```  
+Qual o número que representa o seu ânimo pelo natal: 3  
+Feliz nataaal!  
+```  
+```  
+Qual o número que representa o seu ânimo pelo natal: 0  
+Poxa que pena :(  
+```  
+
+#### **Melhorias Possíveis:**  
+- Validar entrada para evitar números negativos.  
+- Adicionar emojis (🎄🎅) para tornar a saída mais festiva.  
+
+---  
+**Nota:** Ideal para exercícios de **lógica divertida** e **introdução a loops**.
