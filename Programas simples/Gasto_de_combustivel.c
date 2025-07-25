@@ -6,7 +6,7 @@ int main() {
         double tempo, velocidadeMedia;
         double distancia, litros;
 
-    printf("Digite o tempo médio gasto em horas e a velidade média da viagem: \n");
+    printf("Digite o tempo gasto em horas e a velocidade média do carro: \n");
     scanf("%lf%lf",&tempo, &velocidadeMedia);
     
     distancia = tempo * velocidadeMedia;
