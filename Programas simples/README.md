@@ -340,3 +340,42 @@ Digite a idade em dias: 400
 
 ---  
 **Nota:** Ideal para exercícios de **geometria analítica** e **lógica condicional**.
+
+
+### 18 - Cálculo de Combustível em Viagem  
+> Programa que calcula o **consumo de combustível** de um veículo com base no **tempo de viagem** e **velocidade média**, considerando um rendimento fixo de **12 km/L**.  
+
+#### **Funcionamento:**  
+1. **Entrada:**  
+   - Recebe o **tempo gasto (horas)** e a **velocidade média (km/h)**.  
+   - Exemplo: `Digite o tempo gasto em horas e a velocidade média do carro: 2 60` (2 horas a 60 km/h).  
+2. **Cálculos:**  
+   - **Distância percorrida:** `tempo * velocidadeMedia` (em km).  
+   - **Litros de combustível:** `distância / 12` (veículo faz 12 km/L).  
+3. **Saída:**  
+   - Exibe o total de litros com **3 casas decimais**.  
+   - Exemplo: `A quantidade em litros de combustível gasto durante a viagem foi de 10.000 litros`.  
+
+#### **Objetivos:**  
+✔ **Praticar operações matemáticas** básicas (multiplicação e divisão).  
+✔ **Trabalhar com constantes** (`#define` para o consumo do veículo).  
+✔ **Formatar saída numérica** (precisão de 3 casas decimais).  
+
+#### **Destaques do Código:**  
+- **Clareza:** Uso de nomes descritivos para variáveis (`tempo`, `velocidadeMedia`, `litros`).  
+- **Eficiência:** Cálculo direto sem etapas redundantes.  
+- **Boas Práticas:** Uso de `#define` para evitar "números mágicos" no código.  
+
+#### **Exemplo Completo:**  
+```  
+Digite o tempo médio gasto em horas e a velocidade média da viagem: 5 80  
+A quantidade em litros de combustível gasto durante a viagem foi de 33.333 litros  
+```  
+*(5 horas × 80 km/h = 400 km; 400 km ÷ 12 km/L = 33.333 L)*  
+
+#### **Possíveis Melhorias:**  
+- Validar entradas (ex.: tempo ou velocidade negativos).  
+- Permitir que o usuário insira o **consumo do veículo** (em vez de fixar 12 km/L).  
+
+---  
+**Nota:** Ideal para exercícios de **física aplicada** (cinemática) e **programação básica**.
