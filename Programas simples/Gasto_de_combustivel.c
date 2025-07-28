@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define consumoMedioDoVeiculoPorK 12
+#define consumoMedioDoVeiculoPorKM 12
 
 int main() {
  
