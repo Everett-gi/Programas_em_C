@@ -473,3 +473,44 @@ Resultado: Mais de 1 seculo.
 - **Eficiência:** Interrompe o loop após 100 anos para evitar processamento infinito.  
 - **Clareza:** Mensagens explicativas para entrada e saída.  
 - **Precisão:** Arredondamento anual com `(int)` para simular crescimento real.  
+
+
+**### 21 - Criptografia  
+> Programa que codifica mensagens através de um processo de **três etapas**: deslocamento de caracteres, inversão da string e deslocamento parcial.  
+
+#### **Funcionamento:**  
+1. **Primeira Passada (Deslocamento +3):**  
+   - **Letras** (A-Z, a-z) são deslocadas **3 posições à direita** na tabela ASCII.  
+   - Exemplo: `'a' → 'd'`, `'Z' → ']'`.  
+   - **Não altera** números, símbolos ou espaços.  
+
+2. **Segunda Passada (Inversão):**  
+   - **Inverte toda a string**.  
+   - Exemplo: `"abc" → "cba"`.  
+
+3. **Terceira Passada (Deslocamento -1 na Metade):**  
+   - **Metade final da string** (arredondada para baixo) tem caracteres deslocados **1 posição à esquerda** na ASCII.  
+   - Exemplo: `"abcd"` (metade = 2) altera `'c' → 'b'` e `'d' → 'c'`.  
+
+#### **Objetivos:**  
+✔ **Praticar manipulação de strings** (deslocamento ASCII, inversão).  
+✔ **Trabalhar com funções da biblioteca `ctype.h`** (`isalpha`).  
+✔ **Implementar algoritmos de criptografia simples**.  
+
+#### **Exemplo Completo:**  
+```  
+Entrada: "Texto #3"  
+1ª passada: "Wh{wr #3"  (letras deslocadas +3)  
+2ª passada: "3# rw{hW"  (string invertida)  
+3ª passada: "3# rvzgV"  (metade deslocada -1)  
+Saída: "3# rvzgV"  
+```  
+
+#### **Destaques do Código:**  
+- **Eficiência:** Processa cada caractere em loops separados para clareza.  
+- **Controle de Entrada:** Usa `%[^\n]` para ler linhas com espaços.  
+- **Segurança:** Não assume tamanho fixo da string (lê até `\n`).  
+
+#### **Melhorias Possíveis:**  
+- Validar entradas muito longas (evitar buffer overflow).  
+- Adicionar descriptografia (processo inverso).  
