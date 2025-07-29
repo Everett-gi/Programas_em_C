@@ -514,3 +514,65 @@ Saída: "3# rvzgV"
 #### **Melhorias Possíveis:**  
 - Validar entradas muito longas (evitar buffer overflow).  
 - Adicionar descriptografia (processo inverso).  
+
+
+### 22 - Calculadora de Atributos Pokémon  
+> Programa que calcula os atributos (HP, AT, DF, SP) de um Pokémon em um determinado nível, baseado em suas estatísticas base (BS), valores individuais (IV) e esforços (EV).  
+
+---
+
+#### **Funcionamento:**  
+1. **Entrada:**  
+   - Número de casos de teste (`T`).  
+   - Para cada caso:  
+     - **Nome do Pokémon** e **nível** (1 a 99).  
+     - **BS, IV, EV** para cada atributo (HP, AT, DF, SP).  
+
+2. **Cálculo dos Atributos:**  
+   - **HP**:  
+     ```c
+     HP = ((IV + B + sqrt(EV)/8 + 50) * L/50 + 10
+     ```  
+   - **AT, DF, SP**:  
+     ```c
+     Atributo = ((IV + B + sqrt(EV)/8) * L/50 + 5
+     ```  
+   - O resultado é **truncado** (parte decimal removida).  
+
+3. **Saída:**  
+   - Exibe o nome do Pokémon, nível e atributos calculados.  
+
+---
+
+#### **Objetivos:**  
+✔ **Praticar fórmulas matemáticas** (raiz quadrada, divisão inteira).  
+✔ **Organizar entradas/saídas** para múltiplos casos de teste.  
+✔ **Simular mecânicas de jogos** (crescimento de atributos).  
+
+---
+
+#### **Exemplo de Saída:**  
+```  
+Caso #1: Pikachu nivel 50  
+HP: 120  
+AT: 75  
+DF: 65  
+SP: 90  
+```  
+*(Valores calculados com base nos inputs fornecidos)*  
+
+---
+
+#### **Destaques do Código:**  
+- **Precisão:** Uso de `sqrt()` para calcular esforços (EV).  
+- **Estruturação:** Separa claramente o cálculo de cada atributo.  
+- **Interatividade:** Mensagens explicativas para entrada de dados.  
+
+---
+
+#### **Melhorias Possíveis:**  
+- Validar intervalos dos inputs (ex.: EV ≤ 262140).  
+- Adicionar tabela de BS pré-definidos por espécie.  
+
+---  
+**Nota:** Ideal para fãs de Pokémon e exercícios de **matemática aplicada em jogos**.
